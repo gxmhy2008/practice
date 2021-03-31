@@ -1,10 +1,13 @@
-package com.gxm.controller;
+package com.controller;
 
+import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Test {
-    public static void main(String[] args) {
+public class TestCircularReference {
+
+    @Test
+    public void test1() {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");
     }
 }
