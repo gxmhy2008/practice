@@ -10,4 +10,10 @@ public class TestCircularReference {
     public void test1() {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");
     }
+
+    @Test
+    public void testSetBean() {
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("classpath:spring/applicationContext2.xml");
+    }
 }
