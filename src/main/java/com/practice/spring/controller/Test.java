@@ -1,4 +1,4 @@
-package com.gxm.controller;
+package com.practice.spring.controller;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -1,4 +1,4 @@
-package com.gxm.controller.circularreference;
+package com.practice.spring.controller.circularreference;
 
 public class StudentC {
     private StudentA studentA;

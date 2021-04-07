@@ -3,11 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="ta" class="com.gxm.controller.circularreference.TeacherA" >
+    <bean id="ta" class="com.practice.spring.controller.circularreference.TeacherA" >
         <property name="teacherB" ref="tb"></property>
     </bean>
 
-    <bean id="tb" class="com.gxm.controller.circularreference.TeacherB">
+    <bean id="tb" class="com.practice.spring.controller.circularreference.TeacherB">
         <property name="teacherA" ref="ta"/>
     </bean>
 
